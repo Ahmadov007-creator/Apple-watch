@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link_part a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #929292;
+}
+a{
+    text-decoration: none;
+}
+
+.link_part li{
+    list-style-type: none;
+}
+.link_part{
+    display: flex; 
+    justify-content: space-between;
+    width:40%;
+    flex-wrap: wrap;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 200px 0 0;
+}
+.search{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 170px;
+    padding: 5px 0;
+}
+.df{
+    display: flex;
+}
+
+.container{
+   max-width: 1280px;
+   margin: 0 auto;
+}
+
+.menu img{
+    margin: 0 50px;
+}
+
+.search::placeholder{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.page_1{
+    background-image: url(./img/watches.jpg);
+    height: 110vh;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position-x: 1000px;
+    background-position-y: bottom;
+    padding: 75px 0 0;
+    border-bottom: 2px solid #929292;}
+.content_1{
+    align-items: center;
+    justify-content: flex-start;    
+    height: 600px;
+    margin: 90px 50px;
+    font-family: 'Inter';
+    column-gap:100px;
+}
+.child_cont{
+    width: 50%;
+    font-family: 'Inter';
+}
+.child_cont h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+}
+.child_cont p{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 24px;
+   color: #929292;
+   border-left: 1px solid #929292;
+   padding: 0 0 0 40px;
+   margin: 40px 0;
+   display: flex;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: #EF7575;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+.card_box{
+    justify-content: space-between;
+    padding: 60px 0 100px;
+    display: flex;
+}
+.card{
+    width: 30%;
+}
+.card h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.card p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #464646;
+    margin: 60px 0 15px;
+}
+.dots{
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+.dots_active{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #EF7575;
+}
+.dots_active::before{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 70px;
+    background-color: #EF7575;
+    margin: 5px 18px 5px 0;
+}
+.preview{
+    width: 522px;
+}
+.page_4{
+    background-image: url(./img/runners.jpg);
+    width: 1347px;
+    height: 784px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+}
+.right_side{
+    justify-content: flex-end;
+}
+.right_side .child_cont h2,
+.right_side .child_cont p{
+    color: #FFFFFF;
+}
+.right_side .child_cont p{
+    border-left:1px solid #FFFFFF;
+}
